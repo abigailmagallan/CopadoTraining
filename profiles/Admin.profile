@@ -7918,6 +7918,14 @@
         <layout>OrderItem-Formato de productos de pedido</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Planet__c-Gas Giants</layout>
+        <recordType>Planet__c.Gas_Giant</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Planet__c-Gas Giants</layout>
+        <recordType>Planet__c.Terrestar_Planets</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Planet__c-Planet Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9828,6 +9836,16 @@
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
         <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Planet__c.Gas_Giant</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Planet__c.Terrestar_Planets</recordType>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
